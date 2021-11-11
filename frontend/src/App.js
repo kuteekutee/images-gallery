@@ -20,6 +20,9 @@ const App = () => {
       })
       .catch((err) => {
         console.log(err);
+      })
+      .finally(() => {
+        setWord('');
       });
   };
 
