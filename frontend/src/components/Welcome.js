@@ -5,10 +5,13 @@ const Welcome = () => (
   <Jumbotron>
     <h1>Images Gallery</h1>
     <p>
-      This is a simple application that retirieves photos using Unsplash API. In order tostart enter an search term in the input field.
+      This is a simple application that retirieves photos using Unsplash API. In
+      order tostart enter an search term in the input field.
     </p>
     <p>
-      <Button variant="primary" href="https://unsplash.com" target="_blank">Learn more</Button>
+      <Button variant="primary" href="https://unsplash.com" target="_blank">
+        Learn more
+      </Button>
     </p>
   </Jumbotron>
 );
